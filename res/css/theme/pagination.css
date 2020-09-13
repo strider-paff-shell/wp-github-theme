@@ -1,0 +1,56 @@
+.pagination_bar .screen-reader-text{
+    display: none
+}
+
+.pagination_bar
+{
+    text-align: center;
+}
+
+.pagination_bar nav
+{
+    background: none;
+    color: #1b1e21;
+    padding: 0 !important;
+    margin: 15px;
+}
+
+.pagination_bar nav .nav-links
+{
+    background: none;
+    border: 1px solid #d1d5da;
+    border-radius: 5px;
+    color: #1b1e21;
+    margin: auto;
+}
+
+.pagination_bar nav .nav-links span
+{
+    border-right: 1px solid #d1d5da;
+}
+
+.pagination_bar nav .nav-links span, .pagination_bar nav .nav-links a
+{
+    border-right: 1px solid #d1d5da;
+    display: inline;
+    font-size: 1.6rem;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+a.page-numbers
+{
+    margin: 0!important;
+}
+
+.pagination_bar nav .nav-links a:hover
+{
+    background: #d1d5da;
+}
+
+.pagination_bar nav .nav-links span.next,
+.pagination_bar nav .nav-links .current,
+.pagination_bar nav .nav-links a:last-child
+{
+    border-right: 0;
+}

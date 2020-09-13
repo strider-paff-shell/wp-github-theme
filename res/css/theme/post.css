@@ -1,0 +1,87 @@
+.posts_list_item
+{
+    background-color: #fff;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    color: #586069!important;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.posts_list_item_title
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.posts_list_item_repo_lang_color
+{
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
+
+.post_status_bar .watches
+{
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    width: max-content;
+}
+
+.post_status_bar .watches span
+{
+    background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    padding: 5px;
+}
+
+.post_status_bar .watches b
+{
+    background: none;
+    padding: 5px;
+}
+
+.post_status_bar .watches b, .post_status_bar .watches span
+{
+    font-size: 12px;
+}
+
+.post_commit_info
+{
+    background: #f1f8ff!important;
+    border:1px solid #d1d5da;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 5px;
+}
+
+.post_commit_info_additional
+{
+    border:1px solid #d1d5da;
+    border-top: none;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.post_commit_info_additional .post-categories li
+{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.post_content, .sidebar_category_list, .sidebar_widgets
+{
+    border:1px solid #d1d5da;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.post_content
+{
+    margin-bottom: 15px;
+}

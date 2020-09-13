@@ -1,0 +1,18 @@
+@import "global.css";
+@import "nav.css";
+@import "header.css";
+@import "sidebar.css";
+@import "post.css";
+@import "author.css";
+@import "pagination.css";
+@import "page.css";
+@import "comment_form.css";
+@import "comments.css";
+@import "wigdets.css";
+@import "content.css";
+@import "footer.css";
+
+.error-page-whatever
+{
+    font-size: 400%;
+}

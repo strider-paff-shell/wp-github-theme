@@ -1,0 +1,13 @@
+.author_info .avatar_img img
+{
+    border-radius: 3px;
+    height: auto;
+    max-width: 260px;
+    width:100%;
+
+}
+
+.author_info h3, .post_commit_info
+{
+    color: #586069;
+}

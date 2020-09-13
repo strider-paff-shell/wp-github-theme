@@ -1,0 +1,219 @@
+nav, .nav_menu, .mobile_nav_menu
+{
+    background: #24292e;
+}
+
+nav, .nav_menu a, .mobile_nav_menu
+{
+    color: rgba(255,255,255, 1.0);
+    padding: 20px 0 !important;
+}
+
+nav .container .row
+{
+    width: 100%;
+}
+
+nav .mobile_toggle
+{
+    background: #24292e;
+    color: rgba(255,255,255, 1.0);
+    transition: 0.2s;
+}
+
+nav .mobile_toggle svg:hover
+{
+    fill: rgba(255,255,255, 0.7);
+}
+
+nav .mobile_toggle svg:active
+{
+    fill: rgba(255,255,255, 0.5);
+}
+
+.nav_menu, .footer_links ul li
+{
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav_menu li
+{
+    display: inline-block;
+}
+
+.nav_menu  a
+{
+    font-weight: bold;
+    line-height: 35px;
+    padding: 15px 10px !important;
+    text-decoration: none!important;
+    transition: 0.2s;
+}
+
+.nav_menu a:hover
+{
+    color: rgba(255,255,255, 0.7);
+}
+
+.nav_menu a:active
+{
+    color: rgba(255,255,255, 0.5);
+}
+
+/*submenus*/
+
+.nav_menu li:hover > ul,
+.nav_menu .menu-item-has-children:hover > ul,
+.nav_menu .page_item_has_children:hover > ul
+{
+    display: block;
+    transition: 0.2s;
+}
+.nav_menu li .menu-item-has-children:hover > ul,
+.nav_menu li .menu-item-has-children:hover > .children,
+.nav_menu li .page_item_has_children:hover > .children
+{
+    display: block;
+    left:100%;
+    margin-top: -45px;
+    transition: 0.2s;
+}
+
+
+.nav_menu .sub-menu li,
+.nav_menu .children li
+{
+    display: block;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_menu .sub-menu li a,
+.nav_menu .children li a
+{
+    display: block;
+    background: none;
+    color: #000;
+    font-weight: normal;
+    padding: 5px !important;
+    transition: 0.2s;
+}
+
+.nav_menu .sub-menu li a:hover,
+.nav_menu .children li a:hover
+{
+    background: #0366d6;
+    color: #fff;
+}
+
+.nav_menu .sub-menu,
+.nav_menu .children
+{
+    display: none;
+    background: #fff;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: max-content;
+    z-index: 9999;
+}
+
+/*searchbar*/
+
+nav .search_bar
+{
+    float: right;
+}
+
+nav .search_bar, .mobile_nav_menu .search_bar, .search_bar
+{
+    background: #3f4448;
+    border-radius: 3px;
+}
+
+.mobile_nav_menu .search_bar
+{
+    margin-right: 25px;
+    width: 250px;
+}
+
+.search_bar form input[type="text"]
+{
+    background: none;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.mobile_nav_menu .search_bar form input[type="text"]
+{
+    width: calc(100% - 42px);
+}
+
+.mobile_nav_menu
+{
+    display: none;
+    left: 0;
+    top:0;
+    bottom: 0;
+    overflow-y: auto;
+    position: fixed;
+    padding-top: 15px !important;
+    width: 300px;
+    z-index: 9999;
+}
+
+.mobile_nav_menu button
+{
+    background: #24292e;
+    color: rgba(255,255,255, 1.0);
+    font-weight: lighter;
+    transition: 0.2s;
+}
+
+.mobile_nav_menu button:hover
+{
+    color: rgba(255,255,255, 0.7);
+}
+
+.mobile_nav_menu button:active
+{
+    color: rgba(255,255,255, 0.5);
+}
+
+.mobile_nav_menu .list-group li
+{
+    border-bottom: 1px solid #3f4448 !important;
+    padding: 10px;
+}
+
+.mobile_nav_menu .list-group ul li
+{
+    list-style: none;
+}
+
+.mobile_nav_menu .list-group li a
+{
+    background: #24292e;
+    color: rgba(255,255,255, 1.0);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.mobile_nav_menu .list-group li a:hover
+{
+    color: rgba(255,255,255, 0.7);
+}
+
+.mobile_nav_menu .list-group li a:active
+{
+    color: rgba(255,255,255, 0.5);
+}

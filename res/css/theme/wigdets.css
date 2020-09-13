@@ -1,0 +1,55 @@
+.sidebar_category_list .tagcloud a
+{
+    color: #3572a5;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.sidebar_category_list .tagcloud a:hover
+{
+    color: #3a85bd;
+}
+
+.sidebar_category_list .tagcloud a:active
+{
+    color: #204a69;
+}
+
+.sidebar_category_list .tagcloud a:visited
+{
+    color: #103140;
+}
+
+.sidebar_category_list .calendar_wrap
+{
+    border-radius: 3px;
+}
+
+.sidebar_category_list .calendar_wrap table
+{
+    border: 1px solid #d1d5da;
+    width: 100%;
+}
+
+.sidebar_category_list .calendar_wrap table thead
+{
+    background: #f6f8fa;
+    text-align: center;
+}
+
+.sidebar_category_list .calendar_wrap table tr
+{
+    border-top: 1px solid #d1d5da;
+}
+
+.sidebar_category_list .calendar_wrap table tr,
+.sidebar_category_list .calendar_wrap table tr td,
+.sidebar_category_list .calendar_wrap table tr th
+{
+    text-align: center;
+}
+
+.sidebar_category_list .image .wp-image
+{
+    margin:auto;
+}

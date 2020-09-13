@@ -1,0 +1,22 @@
+footer .container
+{
+    border-top: 1px solid #e1e4e8 !important;
+}
+
+.footer_links small
+{
+    color: #586069!important;
+    float: left;
+}
+
+.footer_links ul li
+{
+    float: none;
+    display: inline-block;
+}
+
+.footer_links ul li a
+{
+    font-size: 12px!important;
+    padding: 15px;
+}

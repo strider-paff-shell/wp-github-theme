@@ -1,0 +1,37 @@
+.comment_input_form
+{
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.comment_input_form label
+{
+    font-weight: bold;
+    display: block;
+}
+
+.comment_input_form input[type="text"], .comment_input_form textarea
+{
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,.075);
+    width: 100%;
+}
+
+.comment_input_form input[type="text"]:focus, .comment_input_form textarea:focus
+{
+    border-color: #2188ff;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,.075), 0 0 0 0.2em rgba(3,102,214,.3)
+}
+
+.comment_input_form input[type="submit"]
+{
+    background: linear-gradient(-180deg,#34d058,#28a745 90%);
+    border: 1px solid rgba(27,31,35,.2);
+    border-radius: 3px;
+    color:#fff;
+    font-weight: bold;
+    padding: 5px;
+}

@@ -1,0 +1,24 @@
+.page_title, .page_content
+{
+    border: 1px solid #d1d5da;
+}
+.page_title
+{
+    background-color: #f6f8fa;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 5px 15px;
+}
+
+.page_title h1
+{
+    margin:0;
+    padding:0;
+}
+
+.page_content
+{
+    border-top: 0;
+    margin-bottom: 15px;
+    padding: 15px;
+}
